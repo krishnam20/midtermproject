@@ -1,0 +1,160 @@
+body {
+	font-family: "Calibri Light", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img.background3 {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.background1 {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+.content { 
+	position: relative; 
+	width: 400px; 
+	margin: 150px auto; 
+	padding: 30px;
+	background-color: rgba(0,0,0,0.6); 
+	color: white;
+	right: -300px;
+	text-align: center;
+}
+
+p { font: 17px/2 Calibri Light, Serif;
+	color: white;
+ 	margin: 0 0 30px 0; 
+ 	text-indent: 25px; 
+ 	text-align: left;
+}
+
+ul.mainNav li a:hover:not(.active) {
+    background-color: #dfe3ee;
+    color: #4682B4;
+}
+
+.socialLinks li a:hover:not(.active) {
+    background-color: #dfe3ee;
+    color: 	#4682B4;
+}
+
+
+.mainNav {
+	float: right;
+	list-style: none;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Roboto", sans-serif;
+}
+
+.socialLinks {
+	float: right;
+	list-style: none;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Roboto", sans-serif;
+}
+
+.mainNav li {
+	padding: 20px;
+	display: inline-block;
+}
+
+
+.mainAboutMeDiv{
+	color: white;
+}
+
+ul.mainNav {
+    background-color: #dfe3ee;
+}
+
+
+.aboutMeImage{
+    padding: 20px;
+}
+
+img{
+	height: 220px;
+    width:350px;
+}
+
+
+ul.socialLinks {
+	background-color: #dfe3ee;
+	padding: 5px;
+}
+
+ul.socialLinks li {
+	margin: 0 0 7px 0;
+}
+
+a.aboutMeLink {
+	background-color: none;
+	color: 	#4682B4;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.aboutMeLink a.hover:not(.active) {
+	background-color: #dfe3ee;
+    color: #4682B4;
+
+}
+
+a.aboutMeLink:hover{
+	background-color: #dfe3ee;
+}
+
+
+@media screen and (max-width: 900px) {
+    ul.mainNav{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.mainNav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    ul.mainNav li a {
+        text-align: center;
+        float: none;
+    }
+}
+
+h1 {
+	font-size: 30px;
+	padding: 10px;
+	letter-spacing: 5px;
+}
+
+.copyright {
+	text-orientation: bottom;
+	padding: 10px;
+}
