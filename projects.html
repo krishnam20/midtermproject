@@ -4,7 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="author" content ="Krishna Madhusudan">
 		<title>Krishna Madhusudan's Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="css/projects.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type='text/javascript' src="js/main.js"></script>
+
 	</head>
 
 	<body>
@@ -12,6 +16,13 @@
 		<img src="images/background2.jpg" alt="Cool Backgrounds" class="background2">
 
 		<div class="content">
+
+			<!-- clicking on goToTop href transfers you to the top of the page -->
+			<!-- utilized jquery to have the element appear at the bottom of the page when scrolling -->
+			<!-- applied fadeIn and fadeOut feature which creates an animation of the goToTop icon appearing slowly -->
+			<!-- This tag can only be viewed in AboutMe and Projects section because these pages require scrolling.  -->
+			<a href="#" class="goToTop">Back to top</a>
+
 
 			<header>
 				<h1 class="websiteTitle">Projects</h1>
@@ -21,7 +32,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="aboutMe.html">About Me</a></li>
 						<li><a href="projects.html">Projects</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="contacts.html">Contact</a></li>
 					</ul>
 
 				</div>
@@ -74,8 +85,8 @@
 
 
 			<footer>
-			<!-- footer contains relevant socialNetworking information, link to github, and linkedinContactInformation -->
-			<!-- looked at an example for teamtrehouse on how to design footers -->
+			<!-- footer contains relevant socialNetworking links -->
+			<!-- looked at an example for teamtrehouse on how to design footers. -->
 				<ul class="socialLinks">
 					<li><a href="https://www.facebook.com/krishna.madhusudan.5" target="_blank" class= "socialNetworkFacebook">Facebook</a></li>
 					<li><a href="https://github.com/krishnam20" target="_blank" class= "socialNetworkGithub">Github</a></li>

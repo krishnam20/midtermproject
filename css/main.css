@@ -1,0 +1,369 @@
+body {
+	font-family: "Calibri Light", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+img.background1 {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+img.background2 {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+img.background3 {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+img.background4 {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+p { 
+	font: 16px Calibri Light, sans-serif;
+	color: white;
+ 	margin: 0 0 30px 0; 
+ 	text-indent: 25px; 
+ 	text-align: left;
+ 	letter-spacing: 1.5px;
+}
+
+
+ul.mainNav li a:hover:not(.active) {
+    background-color: #dfe3ee;
+    color: #4682B4;
+}
+
+.socialLinks li a:hover:not(.active) {
+    background-color: #dfe3ee;
+    color: 	#4682B4;
+}
+
+.mainNav {
+	float: right;
+	list-style: none;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Roboto", sans-serif;
+}
+
+.socialLinks {
+	float: right;
+	list-style: none;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Roboto", sans-serif;
+}
+
+.mainNav li {
+	padding: 20px;
+	display: inline-block;
+}
+
+.mainAboutMeDiv{
+	color: white;
+}
+
+.mainProjectsDiv{
+	color: white;
+}
+
+.mainContactsDiv{
+	color: #87CEEB;
+	tex
+}
+
+.profilePicture {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+
+ul.mainNav {
+    background-color: #dfe3ee;
+}
+
+
+ul.socialLinks {
+	background-color: #dfe3ee;
+	padding: 5px;
+}
+
+ul.socialLinks li {
+	margin: 0 0 7px 0;
+}
+
+
+ul.skills {
+	padding: 10px;
+	letter-spacing: 2px;
+}
+
+p.projectsLink {
+	padding: 20px;
+}
+
+p.Interests {
+	padding: 10px;
+	letter-spacing: 2px;
+}
+
+p.About {
+	padding:10px;
+	letter-spacing: 2px;
+}
+
+a.aboutMeLink {
+	background-color: none;
+	color: 	#4682B4;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.aboutMeLink a.hover:not(.active) {
+	background-color: #dfe3ee;
+    color: #4682B4;
+
+}
+
+a.aboutMeLink:hover{
+	background-color: #dfe3ee;
+}
+
+.projectLink a.hover:not(.active) {
+	background-color: #dfe3ee;
+    color: #4682B4;
+
+}
+
+a.projectLink:hover{
+	background-color: #dfe3ee;
+}
+
+a.projectLink {
+	color: #4682B4;
+}
+
+
+
+h1 {
+	font-size: 30px;
+	padding: 10px;
+	letter-spacing: 5px;
+}
+
+.copyright {
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+
+
+.aboutMeImage{
+    padding: 20px;
+}
+
+img{
+	height: 220px;
+    width:350px;
+}
+
+.copyright {
+	text-orientation: bottom;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+.goToTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #dfe3ee;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-family: Roboto, sans-serif;
+}
+
+.goToTop li a:hover:not(.active) {
+    background-color: #dfe3ee;
+    color: 	#4682B4;
+}
+
+.mainProjectsDiv{
+	color: white;
+}
+
+
+ul.Cisco {
+	padding: 10px;
+}
+
+ul.Veeva{
+	padding: 10px;
+}
+
+ul.INF133 {
+	padding: 10px;
+}
+
+#parent {
+	padding:10px;
+}
+
+.child1{
+	padding:10px;
+}
+
+.child2{
+	padding:10px;
+}
+
+.child3{
+	padding:10px;
+}
+
+.child1 p {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+.child2 p {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+.child3 p {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+
+.mainContactsDiv{
+	color: #87CEEB;
+	text-align: none;
+}
+
+ul.lineStyle{
+	list-style-type: none;
+	padding: 5px;
+	font-size: 20px;
+}
+
+
+.contactTab {
+	font-size: 30px;
+	padding: 10px;
+	letter-spacing: 5px;
+}
+
+
+/*Utilized this media query to generate perfect CSS image. Found helpful information about this link
+https://css-tricks.com/perfect-full-page-background-image/*/
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.background1 {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+.content { 
+	position: relative; 
+	width: 400px; 
+	margin: 150px auto; 
+	padding: 30px;
+	background-color: rgba(0,0,0,0.6); 
+	color: white;
+	right: -300px;
+	text-align: center;
+}
+
+/*This media query makes the navigational bar responsive and layer vertically when compressing the broswer.
+Found out about this via the link below
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+*/
+
+@media screen and (max-width: 900px) {
+    ul.mainNav{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.mainNav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    ul.mainNav li a {
+        text-align: center;
+        float: none;
+    }
+}
