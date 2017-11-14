@@ -38,7 +38,7 @@ Folder Containing all the images used for the project. Background images were ta
 
 
 
-Additionl Informatics
+Additional Information
 ----------------------
 This information is also described in the comments of the code.
 Website layout and aesthetic needs to be improved in the long run. Will do this for the final project if that is part of the requirements.
